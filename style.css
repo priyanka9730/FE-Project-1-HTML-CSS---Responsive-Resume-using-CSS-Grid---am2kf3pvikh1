@@ -7,3 +7,100 @@
 }
 
 /* Write CSS code below */
+body {
+   background-color: #94d9ea;
+}
+.main-content{
+    min-height: 1000px;
+    width: 90%;
+    margin:2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+}
+
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color: #00324a;
+}
+
+.right-section{
+    grid-column: span 5;
+    background-color: #f7f7f7;
+    height: 100%;
+}
+
+.left-content{
+    padding: 1rem;
+}
+
+.profile-details{
+    width: 100%;
+}
+
+.profile-image{
+    width: 60%;
+    border-radius: 30%;
+    display: block;
+    margin: auto;
+    border: 5px solid #f7f7f7;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+
+.designation{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+.description{
+    font-size: 0.75rem;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.skills{
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+
+.skill-name{
+    color: white;
+    font-size: 0.65rem;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+.progress-bar{
+    border: 1px solid white;
+    height: 4px;
+}
+
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:681px){
+    
+}
