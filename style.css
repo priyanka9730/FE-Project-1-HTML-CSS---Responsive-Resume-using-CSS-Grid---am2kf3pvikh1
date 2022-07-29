@@ -103,6 +103,16 @@ body {
     letter-spacing: 1px;
 }
 
+@media (max-width: 768px) {
+
+    .main-content{
+        min-height: 1000px;
+        width: 50%;
+        margin:0.5rem auto;
+        display: block;
+      }
+}
+
 
 
 
