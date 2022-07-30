@@ -20,15 +20,13 @@ body {
 }
 
 .left-section{
-    grid-column-start: 0px; 
-    grid-column-end: 300px;
+    grid-column: span 1;
     height: 100%;
     background-color: #00324a;
 }
 
 .right-section{
-    grid-column-start: 300px;
-    grid-column-end: 1000px;
+    grid-column-start: span 1/ span 2;
     background-color: #f7f7f7;
     height: 100%;
 }
@@ -103,15 +101,14 @@ body {
     letter-spacing: 1px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 674px) {
 
     .main-content{
-        min-height: 1000px;
-        width: 50%;
-        margin:0.5rem auto;
-        display: block;
+       grid-template-columns: repeat(1, 1fr);
       }
 }
+
+
 
 
 
